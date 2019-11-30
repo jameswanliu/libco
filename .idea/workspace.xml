@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="libco" targetName="example_closure" />
+      <config projectName="libco" targetName="colib_shared" />
+      <config projectName="libco" targetName="colib_static" />
+      <config projectName="libco" targetName="example_echocli" />
+      <config projectName="libco" targetName="example_echosvr" />
+      <config projectName="libco" targetName="example_setenv" />
+      <config projectName="libco" targetName="example_specific" />
+      <config projectName="libco" targetName="example_thread" />
+      <config projectName="libco" targetName="example_poll" />
+      <config projectName="libco" targetName="example_copystack" />
+      <config projectName="libco" targetName="example_cond" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="207e32d8-29d7-408a-b273-0d5fe6b37251" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1UKMizGPqafGoflnidM9vlpIc1i" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.example_cond">
+    <configuration name="colib_shared" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="colib_shared" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="colib_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="colib_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_closure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="example_closure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libco" RUN_TARGET_NAME="example_closure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cond" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="example_cond" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libco" RUN_TARGET_NAME="example_cond">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_copystack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="example_copystack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libco" RUN_TARGET_NAME="example_copystack">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_echocli" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="example_echocli" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libco" RUN_TARGET_NAME="example_echocli">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_echosvr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="example_echosvr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libco" RUN_TARGET_NAME="example_echosvr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_poll" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="example_poll" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libco" RUN_TARGET_NAME="example_poll">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_setenv" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="example_setenv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libco" RUN_TARGET_NAME="example_setenv">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_specific" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="example_specific" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libco" RUN_TARGET_NAME="example_specific">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_thread" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libco" TARGET_NAME="example_thread" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libco" RUN_TARGET_NAME="example_thread">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.colib_shared" />
+      <item itemvalue="CMake Application.colib_static" />
+      <item itemvalue="CMake Application.example_closure" />
+      <item itemvalue="CMake Application.example_cond" />
+      <item itemvalue="CMake Application.example_copystack" />
+      <item itemvalue="CMake Application.example_echocli" />
+      <item itemvalue="CMake Application.example_echosvr" />
+      <item itemvalue="CMake Application.example_poll" />
+      <item itemvalue="CMake Application.example_setenv" />
+      <item itemvalue="CMake Application.example_specific" />
+      <item itemvalue="CMake Application.example_thread" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="207e32d8-29d7-408a-b273-0d5fe6b37251" name="Default Changelist" comment="" />
+      <created>1575100964490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575100964490</updated>
+      <workItem from="1575100965782" duration="2278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

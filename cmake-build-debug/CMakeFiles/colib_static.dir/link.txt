@@ -1,0 +1,2 @@
+"D:\Program Files\JetBrains\mingw64\bin\ar.exe" qc libcolib.a  CMakeFiles/colib_static.dir/co_epoll.cpp.obj CMakeFiles/colib_static.dir/co_hook_sys_call.cpp.obj CMakeFiles/colib_static.dir/co_routine.cpp.obj CMakeFiles/colib_static.dir/coctx.cpp.obj CMakeFiles/colib_static.dir/coctx_swap.S.obj
+"D:\Program Files\JetBrains\mingw64\bin\ranlib.exe" libcolib.a

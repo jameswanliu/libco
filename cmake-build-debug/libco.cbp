@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libco"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_static">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/libcolib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 colib_static"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_static/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/libcolib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 colib_static/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_copystack">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_copystack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_copystack"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_copystack/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_copystack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_copystack/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_shared">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/libcolib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 colib_shared"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_shared/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/libcolib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 colib_shared/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_poll">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_poll.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_poll"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_poll/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_poll.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_poll/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_closure">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_closure.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_closure"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_closure/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_closure.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_closure/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_cond">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_cond.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_cond"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_cond/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_cond.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_cond/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_echocli">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_echocli.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_echocli"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_echocli/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_echocli.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_echocli/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_echosvr">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_echosvr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_echosvr"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_echosvr/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_echosvr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_echosvr/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_setenv">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_setenv.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_setenv"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_setenv/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_setenv.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_setenv/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_specific">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_specific.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_specific"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_specific/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_specific.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_specific/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_thread">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_thread.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_thread/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/example_thread.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/co_epoll.cpp">
+			<Option target="colib_static"/>
+			<Option target="colib_shared"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/co_epoll.h">
+			<Option target="colib_static"/>
+			<Option target="colib_shared"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/co_hook_sys_call.cpp">
+			<Option target="colib_static"/>
+			<Option target="colib_shared"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/co_routine.cpp">
+			<Option target="colib_static"/>
+			<Option target="colib_shared"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/co_routine.h">
+			<Option target="colib_static"/>
+			<Option target="colib_shared"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/coctx.cpp">
+			<Option target="colib_static"/>
+			<Option target="colib_shared"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/coctx.h">
+			<Option target="colib_static"/>
+			<Option target="colib_shared"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/coctx_swap.S">
+			<Option target="colib_static"/>
+			<Option target="colib_shared"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/example_closure.cpp">
+			<Option target="example_closure"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/example_cond.cpp">
+			<Option target="example_cond"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/example_copystack.cpp">
+			<Option target="example_copystack"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/example_echocli.cpp">
+			<Option target="example_echocli"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/example_echosvr.cpp">
+			<Option target="example_echosvr"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/example_poll.cpp">
+			<Option target="example_poll"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/example_setenv.cpp">
+			<Option target="example_setenv"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/example_specific.cpp">
+			<Option target="example_specific"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/example_thread.cpp">
+			<Option target="example_thread"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_plus/libco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

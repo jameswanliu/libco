@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\colib_shared.dir/objects.a
+"D:\Program Files\JetBrains\mingw64\bin\ar.exe" cr CMakeFiles\colib_shared.dir/objects.a @CMakeFiles\colib_shared.dir\objects1.rsp
+"D:\Program Files\JetBrains\mingw64\bin\g++.exe"  -g  -shared -o libcolib.dll -Wl,--out-implib,libcolib.dll.a -Wl,--major-image-version,0,--minor-image-version,5 -Wl,--whole-archive CMakeFiles\colib_shared.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\colib_shared.dir\linklibs.rsp

@@ -1,0 +1,13 @@
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/colib_static.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/example_copystack.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/colib_shared.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/example_poll.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/example_closure.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/example_cond.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/example_echocli.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/example_echosvr.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/example_setenv.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/example_specific.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/example_thread.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Users/kevin/cworkspace/c_plus/libco/cmake-build-debug/CMakeFiles/rebuild_cache.dir
